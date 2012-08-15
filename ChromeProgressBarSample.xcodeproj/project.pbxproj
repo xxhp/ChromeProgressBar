@@ -1,0 +1,338 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FCDA1C8415DC316500C289B5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCDA1C8315DC316500C289B5 /* UIKit.framework */; };
+		FCDA1C8615DC316500C289B5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCDA1C8515DC316500C289B5 /* Foundation.framework */; };
+		FCDA1C8815DC316600C289B5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCDA1C8715DC316500C289B5 /* CoreGraphics.framework */; };
+		FCDA1C8E15DC316600C289B5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FCDA1C8C15DC316600C289B5 /* InfoPlist.strings */; };
+		FCDA1C9015DC316600C289B5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FCDA1C8F15DC316600C289B5 /* main.m */; };
+		FCDA1C9415DC316600C289B5 /* SampleAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FCDA1C9315DC316600C289B5 /* SampleAppDelegate.m */; };
+		FCDA1C9715DC316600C289B5 /* SampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCDA1C9615DC316600C289B5 /* SampleViewController.m */; };
+		FCDA1C9A15DC316600C289B5 /* SampleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCDA1C9815DC316600C289B5 /* SampleViewController.xib */; };
+		FCDA1CAB15DC31A700C289B5 /* addBar.png in Resources */ = {isa = PBXBuildFile; fileRef = FCDA1CA815DC31A700C289B5 /* addBar.png */; };
+		FCDA1CAC15DC31A700C289B5 /* goButton.png in Resources */ = {isa = PBXBuildFile; fileRef = FCDA1CA915DC31A700C289B5 /* goButton.png */; };
+		FCDA1CAD15DC31A700C289B5 /* goButtonActive.png in Resources */ = {isa = PBXBuildFile; fileRef = FCDA1CAA15DC31A700C289B5 /* goButtonActive.png */; };
+		FCDA1CB515DC321B00C289B5 /* ChromeProgressBar.m in Sources */ = {isa = PBXBuildFile; fileRef = FCDA1CB415DC321B00C289B5 /* ChromeProgressBar.m */; };
+		FCDA1CBA15DC323900C289B5 /* IMTWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = FCDA1CB915DC323900C289B5 /* IMTWebView.m */; };
+		FCDA1CBC15DC329200C289B5 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCDA1CBB15DC329200C289B5 /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FCDA1C7F15DC316500C289B5 /* ChromeProgressBarSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChromeProgressBarSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCDA1C8315DC316500C289B5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FCDA1C8515DC316500C289B5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FCDA1C8715DC316500C289B5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FCDA1C8B15DC316600C289B5 /* ChromeProgressBarSample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ChromeProgressBarSample-Info.plist"; sourceTree = "<group>"; };
+		FCDA1C8D15DC316600C289B5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FCDA1C8F15DC316600C289B5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FCDA1C9115DC316600C289B5 /* ChromeProgressBarSample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ChromeProgressBarSample-Prefix.pch"; sourceTree = "<group>"; };
+		FCDA1C9215DC316600C289B5 /* SampleAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SampleAppDelegate.h; sourceTree = "<group>"; };
+		FCDA1C9315DC316600C289B5 /* SampleAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SampleAppDelegate.m; sourceTree = "<group>"; };
+		FCDA1C9515DC316600C289B5 /* SampleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SampleViewController.h; sourceTree = "<group>"; };
+		FCDA1C9615DC316600C289B5 /* SampleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SampleViewController.m; sourceTree = "<group>"; };
+		FCDA1C9915DC316600C289B5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SampleViewController.xib; sourceTree = "<group>"; };
+		FCDA1CA815DC31A700C289B5 /* addBar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = addBar.png; sourceTree = "<group>"; };
+		FCDA1CA915DC31A700C289B5 /* goButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = goButton.png; sourceTree = "<group>"; };
+		FCDA1CAA15DC31A700C289B5 /* goButtonActive.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = goButtonActive.png; sourceTree = "<group>"; };
+		FCDA1CB315DC321B00C289B5 /* ChromeProgressBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChromeProgressBar.h; sourceTree = "<group>"; };
+		FCDA1CB415DC321B00C289B5 /* ChromeProgressBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChromeProgressBar.m; sourceTree = "<group>"; };
+		FCDA1CB815DC323900C289B5 /* IMTWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMTWebView.h; sourceTree = "<group>"; };
+		FCDA1CB915DC323900C289B5 /* IMTWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMTWebView.m; sourceTree = "<group>"; };
+		FCDA1CBB15DC329200C289B5 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FCDA1C7C15DC316500C289B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCDA1CBC15DC329200C289B5 /* QuartzCore.framework in Frameworks */,
+				FCDA1C8415DC316500C289B5 /* UIKit.framework in Frameworks */,
+				FCDA1C8615DC316500C289B5 /* Foundation.framework in Frameworks */,
+				FCDA1C8815DC316600C289B5 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FCDA1C7415DC316500C289B5 = {
+			isa = PBXGroup;
+			children = (
+				FCDA1C8915DC316600C289B5 /* ChromeProgressBarSample */,
+				FCDA1C8215DC316500C289B5 /* Frameworks */,
+				FCDA1C8015DC316500C289B5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FCDA1C8015DC316500C289B5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FCDA1C7F15DC316500C289B5 /* ChromeProgressBarSample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FCDA1C8215DC316500C289B5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FCDA1CBB15DC329200C289B5 /* QuartzCore.framework */,
+				FCDA1C8315DC316500C289B5 /* UIKit.framework */,
+				FCDA1C8515DC316500C289B5 /* Foundation.framework */,
+				FCDA1C8715DC316500C289B5 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FCDA1C8915DC316600C289B5 /* ChromeProgressBarSample */ = {
+			isa = PBXGroup;
+			children = (
+				FCDA1CA715DC31A700C289B5 /* images */,
+				FCDA1CB715DC323900C289B5 /* IMTWebView */,
+				FCDA1CB215DC321B00C289B5 /* ChromeProgressBar */,
+				FCDA1C9215DC316600C289B5 /* SampleAppDelegate.h */,
+				FCDA1C9315DC316600C289B5 /* SampleAppDelegate.m */,
+				FCDA1C9515DC316600C289B5 /* SampleViewController.h */,
+				FCDA1C9615DC316600C289B5 /* SampleViewController.m */,
+				FCDA1C8A15DC316600C289B5 /* Supporting Files */,
+			);
+			path = ChromeProgressBarSample;
+			sourceTree = "<group>";
+		};
+		FCDA1C8A15DC316600C289B5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FCDA1C9815DC316600C289B5 /* SampleViewController.xib */,
+				FCDA1C8B15DC316600C289B5 /* ChromeProgressBarSample-Info.plist */,
+				FCDA1C8C15DC316600C289B5 /* InfoPlist.strings */,
+				FCDA1C8F15DC316600C289B5 /* main.m */,
+				FCDA1C9115DC316600C289B5 /* ChromeProgressBarSample-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FCDA1CA715DC31A700C289B5 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				FCDA1CA815DC31A700C289B5 /* addBar.png */,
+				FCDA1CA915DC31A700C289B5 /* goButton.png */,
+				FCDA1CAA15DC31A700C289B5 /* goButtonActive.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		FCDA1CB215DC321B00C289B5 /* ChromeProgressBar */ = {
+			isa = PBXGroup;
+			children = (
+				FCDA1CB315DC321B00C289B5 /* ChromeProgressBar.h */,
+				FCDA1CB415DC321B00C289B5 /* ChromeProgressBar.m */,
+			);
+			path = ChromeProgressBar;
+			sourceTree = "<group>";
+		};
+		FCDA1CB715DC323900C289B5 /* IMTWebView */ = {
+			isa = PBXGroup;
+			children = (
+				FCDA1CB815DC323900C289B5 /* IMTWebView.h */,
+				FCDA1CB915DC323900C289B5 /* IMTWebView.m */,
+			);
+			path = IMTWebView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FCDA1C7E15DC316500C289B5 /* ChromeProgressBarSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCDA1C9D15DC316600C289B5 /* Build configuration list for PBXNativeTarget "ChromeProgressBarSample" */;
+			buildPhases = (
+				FCDA1C7B15DC316500C289B5 /* Sources */,
+				FCDA1C7C15DC316500C289B5 /* Frameworks */,
+				FCDA1C7D15DC316500C289B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChromeProgressBarSample;
+			productName = ChromeProgressBarSample;
+			productReference = FCDA1C7F15DC316500C289B5 /* ChromeProgressBarSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FCDA1C7615DC316500C289B5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Sample;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Mario Nguyen";
+			};
+			buildConfigurationList = FCDA1C7915DC316500C289B5 /* Build configuration list for PBXProject "ChromeProgressBarSample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FCDA1C7415DC316500C289B5;
+			productRefGroup = FCDA1C8015DC316500C289B5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FCDA1C7E15DC316500C289B5 /* ChromeProgressBarSample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FCDA1C7D15DC316500C289B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCDA1C8E15DC316600C289B5 /* InfoPlist.strings in Resources */,
+				FCDA1C9A15DC316600C289B5 /* SampleViewController.xib in Resources */,
+				FCDA1CAB15DC31A700C289B5 /* addBar.png in Resources */,
+				FCDA1CAC15DC31A700C289B5 /* goButton.png in Resources */,
+				FCDA1CAD15DC31A700C289B5 /* goButtonActive.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FCDA1C7B15DC316500C289B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCDA1C9015DC316600C289B5 /* main.m in Sources */,
+				FCDA1C9415DC316600C289B5 /* SampleAppDelegate.m in Sources */,
+				FCDA1C9715DC316600C289B5 /* SampleViewController.m in Sources */,
+				FCDA1CB515DC321B00C289B5 /* ChromeProgressBar.m in Sources */,
+				FCDA1CBA15DC323900C289B5 /* IMTWebView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FCDA1C8C15DC316600C289B5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCDA1C8D15DC316600C289B5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FCDA1C9815DC316600C289B5 /* SampleViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCDA1C9915DC316600C289B5 /* en */,
+			);
+			name = SampleViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FCDA1C9B15DC316600C289B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FCDA1C9C15DC316600C289B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FCDA1C9E15DC316600C289B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ChromeProgressBarSample/ChromeProgressBarSample-Prefix.pch";
+				INFOPLIST_FILE = "ChromeProgressBarSample/ChromeProgressBarSample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FCDA1C9F15DC316600C289B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ChromeProgressBarSample/ChromeProgressBarSample-Prefix.pch";
+				INFOPLIST_FILE = "ChromeProgressBarSample/ChromeProgressBarSample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FCDA1C7915DC316500C289B5 /* Build configuration list for PBXProject "ChromeProgressBarSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCDA1C9B15DC316600C289B5 /* Debug */,
+				FCDA1C9C15DC316600C289B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCDA1C9D15DC316600C289B5 /* Build configuration list for PBXNativeTarget "ChromeProgressBarSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCDA1C9E15DC316600C289B5 /* Debug */,
+				FCDA1C9F15DC316600C289B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FCDA1C7615DC316500C289B5 /* Project object */;
+}
